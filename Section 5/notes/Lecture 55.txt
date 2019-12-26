@@ -1,0 +1,6 @@
+Docker Compose Commands
+
+docker run -> docker-compose up 
+docker build . & docker run -> docker-compose up --build 
+
+if you are making use of other urls that have seperate servers but are created in the same compose you can just make the url be the be the name of the service

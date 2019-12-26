@@ -1,0 +1,4 @@
+Getting a command prompt in the container
+
+docker exec it -it <conatiner_id> sh // allows the to have a terminal shell within the container
+                                  ^-- command shell within the image (some don't have this one)

@@ -1,0 +1,7 @@
+Rebuilds with cahce
+
+if you do re-builds on images,
+docker caches some of the data so they do not have to go and fetch data
+
+cache will not be used if the order gets changed or stuff inside the files get chnaged
+

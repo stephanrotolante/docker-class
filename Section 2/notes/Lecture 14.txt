@@ -1,0 +1,4 @@
+Docker Run in detail
+
+docker run image_name
+

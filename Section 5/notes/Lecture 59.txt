@@ -1,0 +1,3 @@
+Contianer Status with Docker compose
+
+docker-compose ps // You have to run this in a directory with the .yml file

@@ -1,0 +1,5 @@
+Creating the Dev Dockerfile
+
+a docker file for development
+
+docker build -f Dockerfile.dev . // the -f allows you to specify the file that you are going to build

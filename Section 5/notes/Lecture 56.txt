@@ -1,0 +1,4 @@
+Stopping Docker Comopose Containers
+
+docker-compose up -d // runs in the background and can still have acess to terminal
+docker-compose down

@@ -1,0 +1,4 @@
+Manual Image Generation with Docker commit
+
+docker commit -c 'CMD["redis-server"]' <docker_process_id>
+                ^--- For start up 

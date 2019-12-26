@@ -1,0 +1,9 @@
+Container port mapping
+
+the docekr ports are different then the ports on the machine
+
+forward machine port to container port
+
+docker run -p <machine_port>:<container_port> <image_id>
+
+right here we are mapping the port on the machine to the port of the docker container

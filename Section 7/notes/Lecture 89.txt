@@ -1,0 +1,6 @@
+Travis CI setup
+
+travis watches for new pushes in the git hub repo
+
+then it updates the code on the live prod
+

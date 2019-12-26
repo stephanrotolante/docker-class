@@ -1,0 +1,5 @@
+The purpose of the IT Flag
+
+-i allows us to communicate through the stdin channel of the container
+
+-t allows the output to be pretty

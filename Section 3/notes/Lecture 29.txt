@@ -1,0 +1,10 @@
+Building a Docker file
+
+Basics to dockker file
+Specify a base image
+Run some commands to install additonal programs
+Specify a command to run on contianer startup
+
+
+
+docker build . // this will build the docker file into an image

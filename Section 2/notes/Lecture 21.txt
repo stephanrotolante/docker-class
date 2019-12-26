@@ -1,0 +1,8 @@
+Stopping Containers
+
+docker stop <container_id> // tells the container to stop and allow it to shutdown at own pace
+
+docekr kill <container_id> // tells the container to immediately shutdown
+
+if container does't shutdown within 10 seconds with 'stop', then 'kill' will be called
+

@@ -1,0 +1,9 @@
+More on Elastic Beanstalk
+
+What elastic bean stalk does:
+
+has a load balance to send requests to running virtual machines with our image running
+
+is there is too many network requests the load balance will create a new virtual machince and send traffic there
+
+vms will be created and deleted as needed

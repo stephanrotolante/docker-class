@@ -1,0 +1,5 @@
+Removing Stopped Containers
+
+docker system prune // this erases all the stopped containers
+
+pruning will erase any cache that was created from docker hub

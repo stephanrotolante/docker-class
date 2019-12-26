@@ -1,0 +1,11 @@
+Travis YML File Configuration
+
+inside of the project you need a .travis.yml file
+
+
+Tell travis we nee a copy of dokcer running
+Build our ikage using Dockerfile.dev
+Tell Travis to run our test suite 
+Tell travis how to deploy our code to AWS
+
+.travis.yml configuration

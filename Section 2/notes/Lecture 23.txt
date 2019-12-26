@@ -1,0 +1,4 @@
+Executing Commands in Running Conatianers
+
+doccker exec -it <container_id> <command> // Execute a command in a conatiner
+               ^--- allows us to provide input in container

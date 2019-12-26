@@ -1,0 +1,4 @@
+Introduction to docker compose
+
+docker compose is seperate cli
+used to start multiple containers at the same time

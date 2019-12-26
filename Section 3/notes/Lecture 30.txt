@@ -1,0 +1,12 @@
+Dockerfile Teardown
+
+Telling Docker Server what to do | arguement to the instruction
+
+line 1 FROM | alpine
+line 2 RUN  | apk add --update redis
+line 3 CMD  | ["redis-server"]
+
+
+Line 1: used to specify the docker image we are using as a base
+Line 2: used to execute a command when contianer is being built
+Line 3: the commands when the container is started up

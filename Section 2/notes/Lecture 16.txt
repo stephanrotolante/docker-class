@@ -1,0 +1,11 @@
+Listing all Running Containers
+
+
+
+docker ps
+-------^
+^-----lists all the running containers on machineclear
+
+docker ps --all 
+    ---------^
+    This shows a log of all the containers ever created

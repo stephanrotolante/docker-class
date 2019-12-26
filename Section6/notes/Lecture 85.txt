@@ -1,0 +1,13 @@
+Implementing Multi-step builds
+
+FROM node:alpine as  builder // we are calling this the builder phase by using the 'as' keyword
+WORKDIR '/app'
+COPY package.json .
+RUN npm i
+COPY . .
+RUN npm run build
+
+FROM nginx
+// below we are grabbing the build phase 
+// after we are copying everything in the /app/build and putting it in the new phase's container
+COPY --from=builder /app/build /usr/share/nginx/html

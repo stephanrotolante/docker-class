@@ -1,0 +1,8 @@
+Minimizing Cache Busting and rebuilds
+
+trick is the first copy statement should be the package.json file
+so if any dependencies change then caching the old node modules isn't used
+
+if it is the same then the cached node modules are brought in
+
+and the code is checked to see if there is any changes to it

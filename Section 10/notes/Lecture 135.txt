@@ -1,0 +1,4 @@
+Production Mulit-Container Deployments
+
+We are going to put our built images on Docker hub,
+that way AWS doesn't have to build the images

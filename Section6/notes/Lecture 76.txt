@@ -1,0 +1,15 @@
+Overriding Dockerfile selection
+
+version: '3'
+services:
+  web:
+    // context - what place the file will be in
+    // dockerfile - the name of the docker file
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    ports:
+      - "3000:3000"
+    volumes:
+      - /app/node_modules
+      - .:/app

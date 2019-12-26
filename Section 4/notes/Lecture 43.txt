@@ -1,0 +1,7 @@
+Copying Build Files
+
+docker file command:
+
+COPY ./ ./
+first ./ copies all files/folders from that location down
+second ./ the location in the docker container where these copied stuff will be

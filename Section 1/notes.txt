@@ -1,0 +1,6 @@
+All contianers do is create reserved space within the computer 
+that only a continer can access its own allocated space
+
+
+
+Docker is a linux vm

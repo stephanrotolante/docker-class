@@ -1,0 +1,7 @@
+Restartiong stopped contianers
+
+when a container is exited you can stil start it back up
+
+you can restart it by using 'docker start'
+
+once you set a default command, restarting the container will run the command again

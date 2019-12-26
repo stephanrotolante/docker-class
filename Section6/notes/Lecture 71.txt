@@ -1,0 +1,9 @@
+Docker Volumes
+
+
+docker volume is pretty much a reference
+you reference you code so if you change it, then you don't have to rebuild everytime you make a change to code
+
+
+docker run -p 3000:3000 -v /app/node_modules -v $(pwd):/app <image_id>
+                                                    ^-- maps the current directory to the /app in the container

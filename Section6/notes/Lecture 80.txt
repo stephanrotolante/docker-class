@@ -1,0 +1,24 @@
+Docker Compose for running tests
+
+
+creating a seperate service just for testing 
+version: '3'
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    ports:
+      - "3000:3000"
+    volumes:
+      - /app/node_modules
+      - .:/app
+  tests:
+      build:
+        context: .
+        dockerfile: Dockerfile.dev
+      volumes:
+        - /app/node_modules
+        - .:/app
+        //overriding the start-up commands
+      command: ["npm","run","test"]

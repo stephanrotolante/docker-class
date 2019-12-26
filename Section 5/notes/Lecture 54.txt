@@ -1,0 +1,16 @@
+Networking with docker compose
+
+
+by creating the two services with the same file they will automatically be connected to each other
+
+
+services: 
+    redis-server:
+        image: 'redis'
+    node-app:
+        build: .
+        ports:
+        - "4001:8081"
+
+
+because these are created together in the index.js file we can specify the host of the redis server as redis-server, the name of the service

@@ -1,0 +1,3 @@
+Docker's Purpose
+
+Docker makes it easier

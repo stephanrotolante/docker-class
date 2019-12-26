@@ -1,0 +1,7 @@
+Project Outline
+
+Create NodeJS web app
+Create a Dockerfile
+Build image from Dockerfile
+run image as container
+connect to web app from browser

@@ -1,0 +1,5 @@
+Bookmarking modules
+
+when using the -v flag, if you don't include a ":" for mapping
+then that location in the container will not be affect by other mappings or copies
+makes that place const

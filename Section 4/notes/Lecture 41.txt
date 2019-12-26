@@ -1,0 +1,2 @@
+When pulling into docker file
+it is repository then the tag name  

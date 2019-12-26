@@ -1,0 +1,4 @@
+Retrieving Output Logs
+
+
+docker logs <container_id> // get logs from a container

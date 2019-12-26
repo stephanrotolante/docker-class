@@ -1,0 +1,5 @@
+Worker Process setup
+
+
+Watches redis for new indicies. 
+Pulls each new indice, calculates new value then puts it back into redis

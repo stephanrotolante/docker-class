@@ -1,0 +1,7 @@
+Single Container Deployment
+
+single container issues
+
+1) app was simple - no outside dependencies
+2) image was built multiple times
+3) how do we connect to a database from a container

@@ -1,0 +1,5 @@
+Specifying a working directory
+
+docker file instuction
+
+WORKDIR /usr/app // any command will be exectuted relative to this path in the container

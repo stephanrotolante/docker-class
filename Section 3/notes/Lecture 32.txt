@@ -1,0 +1,20 @@
+The Build Process In Detail
+
+when file gets built it gets fed into the docker client
+
+because we are copying from a base image 
+the file system of the base image gets put into the new container
+
+the run instruction get executed ans then the new
+programs are put into the file system
+
+after that is all done a snapshot of the container file system is created
+and copied
+
+
+with that new image it gets loaded into a container with the start up command
+
+then that new new image is saved with start up commands and all
+
+
+now you have a new image

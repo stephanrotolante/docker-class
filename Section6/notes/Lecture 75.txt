@@ -1,0 +1,14 @@
+Shorthand with Docker Compose
+
+
+version: '3'
+services:
+  web:
+    build: .
+    ports:
+      - "3000:3000"
+    // first one locks in the node_modules folder
+    // second one maps everything in the current folder to /app
+    volumes:
+      - /app/node_modules
+      - .:/app

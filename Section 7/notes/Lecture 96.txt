@@ -1,0 +1,11 @@
+Travis Config for deployment
+
+travis is already built to deploy code to certian providers
+
+such as openshift, elastic beanstalk
+
+travis ci zip files up and put it into the s3 bucket
+
+// code will be updated on new code in the masterbranch 
+on:
+    branch: master

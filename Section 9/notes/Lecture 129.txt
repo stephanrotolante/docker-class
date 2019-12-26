@@ -1,0 +1,3 @@
+using ngnix to re route traffic depending on the request
+
+if you look in the default.conf file that is what we are doing there

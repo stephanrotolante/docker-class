@@ -1,0 +1,4 @@
+Tagging image
+chanign the name so we don't have that long ID
+
+docker build -t <DOCKER_ID>/<Repo_OR_ProjectName>:<Version> .

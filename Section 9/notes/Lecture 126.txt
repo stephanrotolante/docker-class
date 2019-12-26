@@ -1,0 +1,4 @@
+Environmental variables
+
+look the docker-compose file
+it is what youd do if you were setting evironmental vars from the command line

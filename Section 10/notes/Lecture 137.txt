@@ -1,0 +1,5 @@
+Multiple Instances of Nginx
+
+We are gonna have an instance of nginx running to redirect
+between api and application
+and then the application itself will have an instance of nginx running

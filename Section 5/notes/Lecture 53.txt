@@ -1,0 +1,21 @@
+Docker Compose Files
+ .yml extension
+
+version: '3' // specifies the version of docker compose that we are using to make this
+
+
+// what you want to have done
+// service = container
+services: 
+    // name of service or container we are creating
+    redis-server:
+        // image that we are gonna use
+        image: 'redis'
+    node-app:
+        // this find the docker file at this location and build the image and that is the image that will be used here
+        build: .
+        ports:
+        // - is an array in the .yml Files
+        // can have many machine ports mapped to the docker port
+        // we are mapping machine 4001 to container 8081
+            - "4001:8081"

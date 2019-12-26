@@ -1,0 +1,10 @@
+Shortcomings on testing
+you are not able to manipulate test suite with docker compose
+
+
+docker attach <container_id> // this will allow you to manipulate the stdin of the containe
+
+
+
+when you do attach, it attaches to the primary process
+because when command are executed then separate process are made

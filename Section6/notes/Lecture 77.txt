@@ -1,0 +1,2 @@
+Do we need copy?
+ we do not need copy inside of the dockerfile, but you would want to copy your package.json

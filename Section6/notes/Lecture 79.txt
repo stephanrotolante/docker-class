@@ -1,0 +1,4 @@
+Live Updating tests
+
+
+run docker exec on the already running container and run tests

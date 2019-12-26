@@ -1,0 +1,4 @@
+Exposing Ports Through the Dockerfile
+
+no port mapping occured
+need to expose port inside of the docker file for aws 

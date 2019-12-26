@@ -1,0 +1,9 @@
+Multi-Step Docker Builds
+
+
+the live prod app doesn't need the mode modules, just the build js file
+
+basically what is going to happen:
+
+1) we are going to create a contianer and build the js
+2) create a second contianer and take the build from the first and put it in the second

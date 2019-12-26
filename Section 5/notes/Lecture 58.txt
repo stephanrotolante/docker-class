@@ -1,0 +1,11 @@
+Automatic Container restart
+
+write retart policies inside of docker Container
+"no" - never attempt to restart this container if it stops or crashes
+always - if this container stops "for any reason" always attempt to restart it
+on-failure - Only restart if the container stops wiht an error code, like it failed unexpectedly
+unless-stopped - Always restart unless we forcibly stop it
+
+new property called:
+
+restart: 

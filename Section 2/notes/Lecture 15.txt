@@ -1,0 +1,9 @@
+when docker run is called there is a default start up command that gets called
+
+dokcer run <image_name> <default_command_override>
+
+
+if overriding commands don't work that is because
+the command does not exist inside of the image
+
+thats why ls / wasn't working in hello-world
