@@ -1,0 +1,15 @@
+Forming Container Links
+
+ "portMappings": [
+                {
+                    "hostPort": 80,
+                    "containerPort": 80
+                }
+            ],
+"links": [
+    "client",
+    "server"
+]
+
+the links will make a connection to the different containera
+the names in the link are the names of the containers not the hostName

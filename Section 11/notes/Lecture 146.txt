@@ -1,0 +1,5 @@
+Multi-Contianer Defintiion Files
+
+we have to go through extra configuration for elastic beanstalk to decide what contianers to run
+when you have multiple contianers
+

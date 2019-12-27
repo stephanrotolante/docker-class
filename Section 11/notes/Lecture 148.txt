@@ -1,0 +1,17 @@
+Adding Container Definitions to Docker Run
+
+{
+    "AWSEBDockerrunVersion":2,
+    "containerDefinitions": [
+        {
+            // name of the container on EBS, this doesn't really matter
+            "name": "client",
+            // the name of the image of docker hub
+            "image": "stephanrotolante/multi-client",
+            // just like in the compose this will be the address to the other containers
+            "hostName": "client",
+            // Because this is false if this conatiner shuts down it will not affect the others
+            "essential": false
+        }
+    ]
+}

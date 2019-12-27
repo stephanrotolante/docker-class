@@ -1,0 +1,9 @@
+VPC
+Virtual Private Cloud
+
+Every region has a seperate vpc
+you can specify what ports and who has access to the ports
+
+you can specify outboubd rules to
+
+the Inbound/Outbound rules are the different security groups

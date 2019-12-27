@@ -1,0 +1,5 @@
+Managed Data Service Providers
+
+For Redis going to be using AWS Elastic Cache
+This is good because it is very scalable
+And easy to maintain
