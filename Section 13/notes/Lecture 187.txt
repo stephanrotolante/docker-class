@@ -1,0 +1,5 @@
+Declarative Updates in Action
+
+kubectl describe <object_type> <object_name>
+
+Events from this are lifecycle throught the pod

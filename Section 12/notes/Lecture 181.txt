@@ -1,0 +1,17 @@
+Running Containers in Pods
+
+
+What is a pod?
+when you start minikube, it creates a vm that we call a node
+
+node is used to run objects
+
+most basic object is a pod
+
+a pod is a grouping of contianers with a purpose
+
+
+Why make a pod?
+requirement for a pod is one or more containers inside
+
+the grouping of containers in a pod depends on each other 

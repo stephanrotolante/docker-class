@@ -1,0 +1,10 @@
+Imperitave vs Declaritive Deployments
+
+Imperitave - very specific instructions on setup
+
+Declaritve - tell what we want and the details are done automatically
+
+You have to get the current state and update it to make a new state (Imperitave)
+
+
+update config file and send it to master, and it will get upadted (Declaritive)

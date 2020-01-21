@@ -1,0 +1,8 @@
+Triggering Deployment Updates
+
+You can delete pod and hope latest image gets pulled down
+bad because you can delete the wrong set of pods
+
+You can tag image with version number in Deployment
+
+Use an imperative command to update image version to Use

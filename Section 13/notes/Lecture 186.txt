@@ -1,0 +1,13 @@
+Updatign Existing Objects
+
+Declarative:
+Update out config file that originally created the pod
+
+Throw the updated config file into kubectl
+
+Imperative
+Run a command to list out current running pods
+Run a command to update the current pod to use a new image
+
+
+If you change the name under metadata then a new contianer will be created, rather than be updated

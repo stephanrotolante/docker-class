@@ -1,0 +1,7 @@
+Applying a Deployment
+
+
+Remove an Object
+kubectl delete -f <config_file>
+
+this is an imperative update

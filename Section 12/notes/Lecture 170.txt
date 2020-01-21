@@ -1,0 +1,10 @@
+What is Kubernetes?
+    Helps with Scaling
+Why use Kubernetes?
+    Instead of Scaling a whole application you cna create instances of containers that are bing used more
+
+Cluster -> MASTER + NODE
+
+A NODE is a vm or a physical computer
+
+

@@ -1,0 +1,15 @@
+Connecting to Runnign Clusters
+
+Add configs:
+kubectl apply  -f <file_name>
+
+apply: change the current configuration of the cluster
+-f: we are specifying a file
+
+Print Status of all objects type Pod:
+kubectl get pods
+
+Print status of all objects type Service:
+kubectl get services
+
+**** TO ACCESS THE VM YOU HAVE TO USE THE IP USED BY minikube

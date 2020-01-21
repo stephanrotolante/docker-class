@@ -1,0 +1,22 @@
+Running Containers with Deployments
+
+
+Changin the object to Deployments
+
+Deployments maintian a set of identical pods, ensuring that they have the correct congig
+and that th eright number exists
+
+
+Pods
+Runs a single set of Containers
+Good for one-off dev purposes
+Rarely used directly in production
+
+Deployment
+Runs a set of identical pods
+Monitors the state of each pod, updating as necessary
+Good for dev 
+Good for production
+
+
+Whne you create a Deployment Object it has a Pod template

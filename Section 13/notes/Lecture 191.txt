@@ -1,0 +1,28 @@
+Walking Through the Deployment Config
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: client-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      component: web
+  template:
+    metadata:
+      labels:
+        component: web
+    spec:
+      containers:
+        - name: client
+          image: stephanrotolante/multi-client
+          ports:
+            - containerPort: 3000
+
+after the template it is the same configuration for the pds
+
+replicas is the number of pods the deployment is supposed to make
+
+the root selector tells master the label of the pods that are created
+

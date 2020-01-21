@@ -1,0 +1,3 @@
+Use minikube to manage the vms (local only)
+
+Use kubectl to interact with the clusters (local and production)

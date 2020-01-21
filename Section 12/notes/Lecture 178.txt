@@ -1,0 +1,14 @@
+Mapping Existing Knowledge
+
+
+kubectl cluster-info - tells you the ip of the kubernetes cluster
+
+
+Our goal - Get the multi-client image runnign on our local Kubernetes Cluster running as a container
+
+
+Kuebrnetes 
+
+1) unlike docker-compose, it expects all the images to already be built
+2) unlike docker-compose where we have one config file with all the images, Kuberentes has a config file per object (not always a container) that we are using
+3) Manualy have to setup network, can't connect contianers by just using the sevice name

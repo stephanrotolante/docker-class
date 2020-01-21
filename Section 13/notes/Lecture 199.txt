@@ -1,0 +1,3 @@
+Multiple Docker Installations
+
+If you run docker ps on you machine you wont see the docker containers running because keubernetes is running docker on the virtual machine

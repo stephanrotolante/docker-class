@@ -1,0 +1,3 @@
+Reconfigure Docker CLI
+
+eval $(minikube docker-env)

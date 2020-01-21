@@ -1,0 +1,6 @@
+why mess with docker in the vm?
+
+
+Use debugging techniques
+Manually Kill Containers
+Delete Cached images in the node

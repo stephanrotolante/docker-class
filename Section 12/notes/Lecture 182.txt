@@ -1,0 +1,31 @@
+Service Config Files in Depth
+
+What is a service?
+
+Sets up networking in a Kubernetes Cluster
+
+there are servive sub types such as ClusterIP, NodePort, Load Balanacer, Ingress
+
+
+NodePort -> exposes a container for the outside world (good for dev purposes)
+
+The node port setups a communicatioln layer between the outside and the container running in the pod
+
+kube-proxy decides what service to route to
+
+the component is the name of the pod that you are connecting to,
+web is the label inside of the pod file and the selector in the service file
+fyi the property doesnt have to be component, it can be anything else it is just a key value
+
+port -> if there is a another pod in the vm it would use this port number to connect to whaterver this service is for
+targetPort -> sends all traffic through (main port)
+nodePort -> the port we use in the browser (gets exposed through the outside world)
+
+spec:
+  type: NodePort
+  ports:
+    - port: 3050
+      targetPort: 3000
+      nodePort: 31515 (between 3000- 32767)
+  selector:
+    component: web

@@ -1,0 +1,6 @@
+Why use Services?
+
+Every single pod get an IP Address because of this
+you cannot rely on connecting to their ip Address
+thats why you need a service to reference the pod from the outside
+because the IP is always changing

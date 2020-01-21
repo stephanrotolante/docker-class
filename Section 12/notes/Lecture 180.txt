@@ -1,0 +1,28 @@
+Object Types and API Versions
+
+client-pod.yml
+
+apiVersion: v1
+kind: Pod
+
+client-node-pod.yml
+
+apiVersion: v1
+kind: Service
+
+
+
+
+WHAT IS KIND???????
+what the kind specifies the type of object that config file is going to make
+For example Service and Pod
+
+KIND -> TYPE OF OBJECT
+
+
+The different objects have different properties
+
+
+WHAT IS APIVERSION????
+
+Specifies the set of objects that we can choose when setting the kind

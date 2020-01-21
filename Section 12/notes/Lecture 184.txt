@@ -1,0 +1,8 @@
+The Entire Deployment Flow
+
+if container inside of pod crashes it automatically gets restarted
+
+.yml files to the master, the kube-apiserver is responsible for passign the container
+
+the config files that are passed to the apiserver give the apiserver its respponsiblilites
+

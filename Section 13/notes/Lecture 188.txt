@@ -1,0 +1,6 @@
+Limitations in Config Updates
+
+When updating pod there are only a few things you can Updates
+
+cannot update the ports
+can update the image
