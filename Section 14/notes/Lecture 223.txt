@@ -1,0 +1,16 @@
+Persistent Volume Access Mode
+
+Volume claim gets attached to a POD config
+
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 2Gi
+
+
+Types of access modes:
+ReadWriteOnce: can be used by a single node
+ReadOnlyMany: Multiple Nodes can read from this
+ReadWriteMany: Can be read and written to by man nodes
+

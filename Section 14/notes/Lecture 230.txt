@@ -1,0 +1,10 @@
+Creating an Encoded secret
+
+new type of object called a secret -> securely stores a piece of information in the cluster
+
+kubectl create secret generic <secret_name> --from-literal key=value
+
+generic -> this is the type of secret we are creating, there are other kinds
+<secret_name> -> this will be the name of the secret
+--from-literal -> this means we are creating this config from the command as opposed to a file
+key=value -> this is where you set your key value pairs

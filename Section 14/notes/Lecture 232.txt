@@ -1,0 +1,3 @@
+Enviroment variables as string
+
+have to make a environment vars strings if it in a number

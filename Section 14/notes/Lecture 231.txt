@@ -1,0 +1,13 @@
+passing secrets as environment variables
+
+
+
+- name: PGPASSWORD
+  valueFrom:
+  secretKeyRef:
+    name: pgpassword
+    key: PGPASSWORD
+you have to specify the key you want from the secret
+
+
+since this is a postgres password we need go to the postgres deployment and specify the default password

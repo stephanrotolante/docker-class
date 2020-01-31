@@ -1,0 +1,4 @@
+Applying Multiple Files with Kubectl
+
+
+You can apply many config files at one time you just have to specify the directoty the files will be in

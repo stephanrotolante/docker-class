@@ -1,0 +1,5 @@
+More Behind the scenes of Ingress
+
+If you deploy on google cloud, cloud will use there load balancer but the ingress still handles all the routing in the cluster
+
+The ingress hits the deployment pod instead of the service pods

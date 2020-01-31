@@ -1,0 +1,7 @@
+A quick note on Ingress
+
+Several Implementations of Ingress
+
+We are using the Nginx Implementation
+
+ingress-nginx

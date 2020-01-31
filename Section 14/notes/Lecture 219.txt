@@ -1,0 +1,5 @@
+Kubernetes Volumes
+
+
+Volume in Kubernetes is an object that allows a container to store data at the od level
+

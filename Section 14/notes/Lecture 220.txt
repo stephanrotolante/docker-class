@@ -1,0 +1,5 @@
+Volumes vs Persistent Volumes
+
+Volumes are tied to a specific pod
+
+Persistent Volumes not tied to a container, if container dies the volume wont die

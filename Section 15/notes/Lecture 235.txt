@@ -1,0 +1,4 @@
+One other quick note!
+
+setup of ingress-nginx is different depending on environment ex. AWS local
+

@@ -1,0 +1,22 @@
+Designating a PVC in a Pod Template
+
+This is in the same level as the spec of the container
+claimName points to the name of the claim
+
+ spec:
+      volumes:
+        - name: postgres-storage
+          persistentVolumeClaim:
+            claimName: database-persistent-volume-claim
+      containers:
+        - name: postgres
+          image: postgres
+          ports:
+            - containerPort: 5432 
+          volumeMounts:
+          // This name will do to the volumes entry above ans look for the volume with that same name
+            - name: postgres-storage
+            // This will be where the data will be put inside of the container. The location below is specific for postgres
+              mountPath: /var/lib/postgresql/data
+              // This subpath will be the name of the folder housing the mount path
+              subPath: postgres

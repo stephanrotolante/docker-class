@@ -1,0 +1,3 @@
+The need for volumes with databases
+
+This is goog because if the postgres container crashes the data wont get lsot becaise it is written to a volume

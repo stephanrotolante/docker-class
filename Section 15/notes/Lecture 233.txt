@@ -1,0 +1,10 @@
+Load Balancer Services
+
+LoadBalancer -> legacy way of getting network traffic into a cluster
+
+Ingres -> exposes application to the outside (newer way)
+
+What does a load balancer do?
+Only exposes one set of pods
+
+

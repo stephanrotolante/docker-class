@@ -1,0 +1,7 @@
+Where does Kubernetes Allocate persistent volumes?
+
+Default place to allocate space is the hard drive
+
+But if you are using clound storage there are other places to allocate space
+
+the provisioner decides where the space gets allocated, by settign the storage class name in the PVC config file

@@ -1,0 +1,9 @@
+Behind the scenes of Ingress
+
+Deployment Object is controller
+
+A controller in the world of Kubernetes is anything that works to make a desired state possible
+
+Ingress responsible for creating routes
+
+our ingress controller makes a pod running nginx that handles routing

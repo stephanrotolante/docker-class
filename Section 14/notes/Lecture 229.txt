@@ -1,0 +1,20 @@
+Adding Environment Variables to Config
+
+
+spec:
+      containers:
+        - name: worker
+          image: stephengrider/multi-worker
+          env:
+            - name: REDIS_HOST
+              value: redis-cluster-ip-service
+            - name: REDIS_PORT
+            value: 6379
+
+
+so to add environmental variables, you need to make an env property
+each property has a name and a value
+
+when getting other containers you can just reference the name of the service
+
+look above we are grabbing the location of the redis service

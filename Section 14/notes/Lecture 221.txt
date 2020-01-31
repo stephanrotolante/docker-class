@@ -1,0 +1,8 @@
+Persistent Volumes vs Persistent Volume Claims
+
+
+Persistent Volume Claims - advertisemtent for volume size options available
+
+if kuberentes has volumes made with the approriate size it will use them
+
+if not they will have to be made
